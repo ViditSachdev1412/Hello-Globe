@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello-News</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <a href="#" class="logo">HELLO-NEWS!</a>
+            <div class="nav-links">
+                <a href="#" class="nav-link">Home</a>
+                <a href="#Tech" class="nav-link">Tech</a>
+                <a href="#Science" class="nav-link">Science</a>
+                <a href="#World" class="nav-link">World</a>
+                <a href="#Business" class="nav-link">Business</a>
+            </div>
+            <div class="search-bar">
+                <input type="search" class="search-input" placeholder="Search...">
+                <button class="btn">Search</button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="breaking-news-container">
+        <div class="breaking-news">
+            <div class="breaking-label">Breaking News</div>
+            <div class="breaking-news-scroll">
+                <span>PhD student discovers lost Mayan city the size of Edinburgh in Mexico jungle • AI breakthrough helps dementia patients • JP Morgan takes legal action against TikTok check fraud</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container main-layout">
+        <main class="main-content">
+            <article class="featured">
+                <div class="featured-content">
+                    <img src="https://imageio.forbes.com/specials-images/imageserve/66da97e16f3f9306ddfa98cd/Agentic-AI-is-poised-to-revolutionize-how-we-interact-with-artificial-intelligence-/960x0.jpg?format=jpg&width=960" alt="AI Technology" class="featured-image">
+                    <div class="featured-text">
+                        <h1 class="featured-title">AI Technology Breakthroughs</h1>
+                        <p class="meta">By Jane Doe • 3 min read</p>
+                        <p>Discover the latest advancements in artificial intelligence that are set to transform industries worldwide.</p>
+                        <button class="btn" style="margin-top: 1rem;">Read More</button>
+                    </div>
+                </div>
+            </article>
+
+            <div class="news-grid">
+                <article class="news-card" id="Tech">
+                    <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/6715/live/f87eeff0-6c40-11ef-b97f-99aad2b9c3ac.png" alt="AI for dementia" class="news-image">
+                    <div class="news-content">
+                        <span class="news-tag">Tech</span>
+                        <h2 class="news-title">Can AI make life easier for people with dementia</h2>
+                        <p>AI Projects underway to help ease the challenges of dementia.</p>
+                        <p class="meta">3 min read</p>
+                    </div>
+                </article>
+
+                <article class="news-card" id="Science">
+                    <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/3a14/live/0fb1eea0-92e5-11ef-9e9f-f94aa162b9ae.jpg" alt="Dorygnathus fed on small fish" class="news-image">
+                    <div class="news-content">
+                        <span class="news-tag">Science</span>
+                        <h2 class="news-title">Fossils show flying reptiles are squid and fish</h2>
+                        <p>Researcher Dr. Roy Smith stomach contents were the "smoking gun" evidence for the diets</p>
+                        <p class="meta">4 min read</p>
+                    </div>
+                </article>
+
+                <article class="news-card" id="World">
+                    <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/443d/live/f774e910-95b8-11ef-bf59-99b64fa9486e.jpg" alt="Mexico" class="news-image">
+                    <div class="news-content">
+                        <span class="news-tag">World</span>
+                        <h2 class="news-title">PhD student finds lost city in mexico jungle by accident</h2>
+                        <p>The city is about the size of Edinburgh and among the largest Mayan sites in ancient Latin America.</p>
+                        <p class="meta">2 min read</p>
+                    </div>
+                </article>
+
+                <article class="news-card" id="Business">
+                    <img src="https://ichef.bbci.co.uk/news/1024/cpsprodpb/97b6/live/6e1ddd30-95a8-11ef-84f9-893786bbcbd2.jpg" alt="Infinite Money Glitch" class="news-image">
+                    <div class="news-content">
+                        <span class="news-tag">Business</span>
+                        <h2 class="news-title">JP Morgan sues customers over Viral TikTok cheque fruad.</h2>
+                        <p>"Infinite Money Glitch" allowed the withdrawal of funds from cheques before they were cleared by the bank.</p>
+                        <p class="meta">5 min read</p>
+                    </div>
+                </article>
+            </div>
+        </main>
+
+        <aside class="sidebar">
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Quick Links</h2>
+                <ul class="sidebar-links">
+                    <li><a href="#Tech" class="sidebar-link">Technology News</a></li>
+                    <li><a href="#Science" class="sidebar-link">Science Updates</a></li>
+                    <li><a href="#World" class="sidebar-link">World Affairs</a></li>
+                    <li><a href="#Business" class="sidebar-link">Business News</a></li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Trending Topics</h2>
+                <ul class="trending-list">
+                    <li class="trending-item">
+                        <a href="#" class="trending-link">#AI</a>
+                    </li>
+                    <li class="trending-item">
+                        <a href="#" class="trending-link">#SpaceExploration</a>
+                    </li>
+                    <li class="trending-item">
+                        <a href="#" class="trending-link">#ClimateChange</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-section">
+                <h2 class="sidebar-title">Subscribe</h2>
+                <p class="sidebar-text">Stay updated with our latest news</p>
+                <form class="newsletter-form">
+                    <input type="email" class="newsletter-input" placeholder="Your email">
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </aside>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <h3 class="footer-title">About Us</h3>
+                    <p class="footer-text">Leading source for tech news and scientific discoveries.</p>
+                </div>
+                <div>
+                    <h3 class="footer-title">Follow Us</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Facebook</a></li>
+                        <li><a href="#" class="footer-link">Twitter</a></li>
+                        <li><a href="#" class="footer-link">Instagram</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="footer-title">Contact</h3>
+                    <ul class="footer-links">
+                        <li><a href="#" class="footer-link">Contact Us</a></li>
+                        <li><a href="#" class="footer-link">Advertise</a></li>
+                        <li><a href="#" class="footer-link">Help</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechNews. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
